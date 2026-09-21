@@ -1,0 +1,44 @@
+product_list:
+
+  -
+    keyword: 小米
+    expect:
+      code: 200
+
+
+  -
+    keyword: 华为
+    expect:
+      code: 200
+
+
+  -
+    keyword: 苹果
+    expect:
+      code: 200
+
+
+  -
+    keyword: 不存在
+    expect:
+      code: 200
+
+
+
+product:
+
+  brandId: 1
+
+  productCategoryId: 1
+
+  productSn: AUTO001
+
+  publishStatus: 1
+
+  verifyStatus: 1
+
+  deleteStatus: 0
+
+  price: 99
+
+  stock: 100

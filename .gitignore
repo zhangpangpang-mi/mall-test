@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE
+.idea/
+
+# Logs
+logs/
+
+# Reports
+reports/
+
+# Excel temporary files
+~$*.xlsx
